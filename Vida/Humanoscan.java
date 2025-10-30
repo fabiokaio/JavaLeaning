@@ -4,20 +4,33 @@ import java.util.Scanner;
 public class Humanoscan extends Humano{
         
 }
-class Main{
+class Main2{
     public static void main(String[]args){
         Humanoscan pessoa2 = new Humanoscan();
         Scanner input = new Scanner(System.in);
         System.out.println("Digite seu nome");
         pessoa2.nome = input.nextLine();
+        System.out.println("Digite seu peso");
         pessoa2.peso = input.nextFloat();
+        input.nextLine();
+        System.out.println("Qual o seu sexo");
         pessoa2.sexo = input.nextLine();
+        System.out.println("Digite seu tipo sanguíneo");
         pessoa2.tpsangue = input.next();
+        System.out.println("Digite sua altura");
         pessoa2.altura = input.nextFloat();
+        input.nextLine();
+        System.out.println("Digite seu CPF (Como no modelo : 000.000.000-00)"); // como obrigar o cpf a ser  escrito NO MODELO , com quaisquer outros números ?
         pessoa2.cpf = input.nextLine();
+        System.out.println("Digite sua idade");
         pessoa2.idade = input.nextInt();
+        input.nextLine();
+        System.out.println("Digite o nome do seu pai");
         pessoa2.fathername = input.nextLine();
+        input.nextLine();
+        System.out.println("Digite o nome da sua mãe");
         pessoa2.mothername = input.nextLine();
+        input.nextLine();
         input.close();
 
         String workhard = "yes";
@@ -62,3 +75,4 @@ class Main{
     }
 
 }
+// aindo vou elaborar mais . Tenho minhas  dúvidas marcadas e explicadas
