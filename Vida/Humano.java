@@ -11,6 +11,7 @@ public class Humano {
     int    idade;
     String fathername;
     String mothername;
+    public Object name;
     // Métodos
     //chorar , cortar cordão umbilical , toma banho  , vai pra casa , mama nos peitos , cresce . envelhece  ... morre.
     void nascer (){
@@ -54,13 +55,13 @@ class Main {
         pessoa.nome = "Cleitinho";
         pessoa.peso = (float)3.212;
         pessoa.sexo = "Masculino";
-        pessoa.altura= (float)1.10;
+        pessoa.altura= (float)58.0;
         pessoa.tpsangue = "O+";
         pessoa.cpf = "000.000.000-00";
         pessoa.fathername = "Cletão";
         pessoa.mothername = "Cleytina";
         System.out.printf("Nome: %s%n",pessoa.nome);
-        System.out.printf("Born right now");
+        System.out.printf("Born right now%n");
         String workhard = "yes";
         String GOD = "yes";
         // chamar o método nascer
